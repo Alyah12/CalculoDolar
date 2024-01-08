@@ -15,7 +15,7 @@ public class Program {
         CurrencyConverter.dolarPrice = sc.nextDouble();
         System.out.println("Quantos dolares você quer ?");
         CurrencyConverter.dolar = sc.nextDouble();
-        System.out.println("Você vai pagar: " + CurrencyConverter.conversão());
+        System.out.println("Você vai pagar: " + CurrencyConverter.conversao());
 
         sc.close();
     }
